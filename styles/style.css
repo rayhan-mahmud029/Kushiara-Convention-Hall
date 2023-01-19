@@ -1,0 +1,21 @@
+
+.carousel-item.text img{
+    filter: brightness(60%) opacity(90%) grayscale(50%);
+
+}
+.explore-text h1{
+    color: #0A0826;
+}
+
+.item{
+    border-radius: 26px;   
+    
+}
+.item:hover{
+    background: #0A0826;
+    box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
+    color: #ffff; 
+}
+.item:hover h3, .item:hover p{
+    color: white !important;
+}

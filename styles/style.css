@@ -8,8 +8,7 @@
 }
 
 .item{
-    border-radius: 26px;   
-    
+    border-radius: 26px;      
 }
 .item:hover{
     background: #3F87F5;
@@ -17,12 +16,15 @@
     color: #ffff; 
 }
 .item:hover h3, .item:hover p{
-    color: white !important;
+    color: #ffff !important;
 }
 .item:hover button{
-    background-color: #ffff !important;
+    background-color: #ffff;
 }
 
+.item span{
+    font-size: 2rem;
+}
 .item:hover > span{
     display: block !important;
 }
